@@ -2,6 +2,37 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14.0.0 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+### Running the Development Server
+
 First, run the development server:
 
 ```bash
@@ -19,6 +50,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Troubleshooting
+
+If you encounter any issues during setup or development, here are some common solutions:
+
+- **Node.js version issues:** Ensure you have the correct version of Node.js installed. You can check your version with `node -v` and update if necessary.
+- **Permission errors:** If you encounter permission errors during installation, try running the command with `sudo` (Linux/macOS) or as an administrator (Windows).
+- **Port conflicts:** If port 3000 is already in use, you can specify a different port by running `npm run dev -- -p <port>`.
 
 ## Learn More
 
